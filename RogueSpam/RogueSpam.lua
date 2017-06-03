@@ -140,6 +140,44 @@ function RogueSpam_Localize()
 		ROGUESPAM_REMOVEDFILTER = "Filtre enlev\195\169 ";
 		ROGUESPAM_COSMOSTOGGLEINFO = "Basculer RogueSpam en Activ\195\169/D\195\169sactiv\195\169";
 		ROGUESPAM_COSMOSENABLE = "Activer RogueSpam";
+	elseif (GetLocale() == "ruRU") then
+-- Version : Russian ( by Maus )
+		ROGUESPAM_ROGUESPAM = "RogueSpam";
+		ROGUESPAM_INIT1 = "Allara's RogueSpam ";
+		ROGUESPAM_V = "вер.";
+		ROGUESPAM_INIT2 = " загружен. Введите /roguespam или /rs для отображения списка опций.";
+		ROGUESPAM_STATUS1 = "[В настоящее время RogueSpam - ";
+		ROGUESPAM_STATUS2 = "]";
+		ROGUESPAM_ENABLED = "включен";
+		ROGUESPAM_DISABLED = "отключен";
+		ROGUESPAM_HELP = "help";
+		ROGUESPAM_USAGE1 = "Введите /roguespam или /rs и одну из следующих команд:";
+		ROGUESPAM_USAGE2 = "  enable - Включить RogueSpam";
+		ROGUESPAM_USAGE3 = "  disable - Выключить RogueSpam";
+		ROGUESPAM_USAGE4 = "  toggle - Переключение RogueSpam вкл/выкл";
+		ROGUESPAM_USAGE5 = "  list - Отображает сообщения  добавленные в фильтр и их ИД номера";
+		ROGUESPAM_USAGE6 = "  add [message] - Добавляет [сообщение] в список фильтра";
+		ROGUESPAM_USAGE7 = "  remove [id] - Удаляет сообщение [ИД] из списка фильтра";
+		ROGUESPAM_ENABLE = "enable";
+		ROGUESPAM_DISABLE = "disable";
+		ROGUESPAM_FILTERSCMD = "list";
+		ROGUESPAM_ADD = "add";
+		ROGUESPAM_REMOVE = "remove";
+		ROGUESPAM_TOGGLE = "toggle";
+		ROGUESPAM_UNKNOWNCOMMAND = "RogueSpam: Неизвестная команда. Введите /roguespam или /rs для помощи.";
+		ROGUESPAM_CURRENTFILTERS = "Список добавленных сообщений";
+		ROGUESPAM_SLASHCOMMAND1 = "/roguespam";
+		ROGUESPAM_SLASHCOMMAND2 = "/rs";
+		ROGUESPAM_ADDUSAGE1 = "Используйте: /roguespam add [сообщение]";
+		ROGUESPAM_ADDUSAGE2 = "Пример: /roguespam add Привет, мир!";
+		ROGUESPAM_ADDEDFILTER = "RogueSpam следующее сообщение добавлено в фильтр: ";
+		ROGUESPAM_REMOVEUSAGE1 = "Используйте /roguespam remove [ИД]";
+		ROGUESPAM_REMOVEUSAGE2 = "Пример: /roguespam remove 2";
+		ROGUESPAM_REMOVEUSAGE3 = "Используйте /roguespam list чтобы увидеть ИД каждого сообщения добавленного в фильтр";
+		ROGUESPAM_FILTERNOTFOUND = "RogueSpam: сообщение не найдено";
+		ROGUESPAM_REMOVEDFILTER = "Из фильтра удалено следующее сообщение - ";
+		ROGUESPAM_COSMOSTOGGLEINFO = "Переключени RogueSpam вкл/выкл";
+		ROGUESPAM_COSMOSENABLE = "Включить RogueSpam";
 	elseif (GetLocale() == "deDE") then
 		ROGUESPAM_INIT1 = "Allara's RogueSpam ";
 		ROGUESPAM_V = "v";
